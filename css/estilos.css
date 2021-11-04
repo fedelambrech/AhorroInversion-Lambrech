@@ -1,0 +1,135 @@
+.header {
+  display: flex;
+  justify-content: center;
+  border-bottom: white;
+  border-style: solid; }
+  .header .header__navegador {
+    height: auto;
+    width: auto;
+    background-color: black;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border-style: groove;
+    border-color: lawngreen;
+    background: linear-gradient(90deg, #000, #ccc); }
+  .header .header__lista {
+    list-style-type: none;
+    overflow: hidden; }
+  .header .header__elemento {
+    display: inline-block;
+    word-spacing: 2px;
+    padding: 5px; }
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 50rem;
+  width: auto;
+  background-color: #F2F4F3;
+  border-bottom: white;
+  border-style: solid;
+  text-align: justify;
+  overflow: scroll; }
+  .main .main__div {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+    justify-content: start; }
+
+.divDerecha {
+  padding-right: 50px; }
+  .divDerecha .divDerecha__titulo {
+    color: blueviolet; }
+  .divDerecha .divDerecha__parrafo {
+    word-spacing: 10px; }
+
+.footer {
+  justify-content: center;
+  height: auto;
+  width: auto; }
+  .footer .footer__redesSociales {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    margin: 10px;
+    border: lawngreen;
+    border-style: solid;
+    background: linear-gradient(90deg, #ccc, #000); }
+  .footer .footer__logoWsp:hover {
+    transform: translate(-10px, -10px); }
+  .footer .footer__logoLinkedin:hover {
+    transform: translate(-10px, -10px); }
+  .footer .footer__logoGit:hover {
+    transform: translate(-10px, -10px); }
+
+.headerAhoDol {
+  display: flex;
+  justify-content: center;
+  border-bottom: white;
+  border-style: solid; }
+  .headerAhoDol .headerAhoDol__navegador {
+    height: auto;
+    width: auto;
+    background-color: black;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border-style: groove;
+    border-color: lawngreen;
+    background: linear-gradient(90deg, #000, #ccc); }
+  .headerAhoDol .headerAhoDol__lista {
+    list-style-type: none;
+    overflow: hidden; }
+  .headerAhoDol .headerAhoDol__elemento {
+    display: inline-block;
+    word-spacing: 2px;
+    padding: 5px; }
+
+.mainAhoDol {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 50rem;
+  width: auto;
+  background-color: #F2F4F3;
+  border-bottom: white;
+  border-style: solid;
+  text-align: justify;
+  overflow: scroll; }
+  .mainAhoDol .mainAhoDol__div {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+    justify-content: start; }
+
+.divDerechaAhoDol {
+  padding-right: 50px; }
+  .divDerechaAhoDol .divDerechaAhoDol__titulo {
+    color: blueviolet; }
+  .divDerechaAhoDol .divDerechaAhoDol__parrafo {
+    word-spacing: 10px; }
+
+.footerAhoDol {
+  justify-content: center;
+  height: auto;
+  width: auto; }
+  .footerAhoDol .footerAhoDol__redesSociales {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    margin: 10px;
+    border: lawngreen;
+    border-style: solid;
+    background: linear-gradient(90deg, #ccc, #000); }
+  .footerAhoDol .footerAhoDol__logoWsp:hover {
+    transform: translate(-10px, -10px); }
+  .footerAhoDol .footerAhoDol__logoLinkedin:hover {
+    transform: translate(-10px, -10px); }
+  .footerAhoDol .footerAhoDol__logoGit:hover {
+    transform: translate(-10px, -10px); }

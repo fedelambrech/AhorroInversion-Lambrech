@@ -1,0 +1,171 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 2fr;
+    font-size: 15px;
+    background-color: #0A0908;
+}
+
+header{
+    display: grid;
+    place-items: center;
+    border-bottom: rgb(255, 255, 255);
+    border-style: solid;
+}
+
+nav{
+    height: auto;
+    width: auto;
+    background-color: black;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    background: linear-gradient(90deg, #000, #ccc)
+}
+
+a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 50rem;
+    width: auto;
+    background-color: #F2F4F3;
+    border-bottom: white;
+    border-style: solid;
+    text-align: justify;
+    overflow: scroll;
+}
+
+.cajaDerecha{
+    padding-right: 50px;
+}
+
+.tituloRojo{
+    color:red;
+}
+
+.tituloAzul{
+    color:blue;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li{
+    display: inline-block;
+    word-spacing: 2px;
+    padding: 5px;
+}
+
+li a{
+    display: inline-block;
+}
+
+section form{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: auto;
+    width: auto;
+    background-color: #ddd5cd;
+    word-spacing: 2px;
+    align-items: initial;
+    justify-content: space-around;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.redesSociales{
+    display:flex;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    margin: 10px;
+    background: linear-gradient(90deg, #ccc, #000)
+}
+
+input{
+    opacity:0.5;
+}
+input:hover{
+    opacity:1;
+}
+
+.logoWsp:hover{
+    transform: translate(-10px, -10px);
+}
+
+.logoGit:hover{
+    transform: scale(2, 2);
+}
+
+.logoLinkedin:hover{
+    transform: translate(10px, -10px);
+}
+
+@media only screen and (max-width: 768px){
+
+    body{
+        grid-template-columns: repeat(2fr);
+        background-color: rgb(61, 3, 3);
+    }
+
+    section form{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    header{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    main{
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media only screen and (max-width: 320px){
+
+    body{
+        grid-template-columns: auto;
+        background-color: rgb(3, 6, 53);
+    }
+
+    section form{
+        grid-template-columns: 1fr;
+    }
+
+    header{
+        grid-template-columns: 1fr;
+    }
+
+    main{
+        grid-template-columns: 1fr;
+    }
+
+}
